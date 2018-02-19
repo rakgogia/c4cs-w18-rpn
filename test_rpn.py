@@ -7,5 +7,5 @@ class TestBasics(unittest.TestCase):
 		self.assertEqual(2, result_add)
 
     def test_exp(self):
-        result_exp = rpn.calculate('2 3 ^)
+        result_exp = rpn.calculate('2 3 ^')
         self.assertEqual(8, result_exp)
